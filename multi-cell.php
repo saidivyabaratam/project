@@ -41,7 +41,7 @@ function Row($data)
         // width of the current col
         $w=$this->widths[$i];
         // alignment of the current col. if unset, make it left.
-        $a=isset($this->aligns[$i]) ? $this->aligns[$i] : 'L';
+        $a=isset($this->aligns[$i]) ? $this->aligns[$i] : 'B';
         //Save the current position
         $x=$this->GetX();
         $y=$this->GetY();
